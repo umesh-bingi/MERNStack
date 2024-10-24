@@ -1,26 +1,51 @@
-/* .login-form{
-    padding-left: 50px;
-}
-#login{
+body{
+    height: 100vh;
+    width:100vw;
+    background: #108dc7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    margin-left: 40vw;
-    background-color: aquamarine;
-    height: 25vh;
-    width: 50vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#login>form>h1{
-    text-align: center;
-} */
-
-#login{
-    text-align: center;
-    height: 40vh;
-    background-color: aquamarine;
+.login-form
+{
+    background-color: rgb(59, 198, 198);
+    height:40vh;
+    width:35vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    border-radius: 8px;
+    box-shadow:
+  2px 2.4px 3.5px -50px rgba(0, 0, 0, 0.118),
+  4.9px 5.9px 8px -50px rgba(0, 0, 0, 0.17),
+  9.4px 11.3px 14.5px -50px rgba(0, 0, 0, 0.21),
+  17.5px 21px 25.1px -50px rgba(0, 0, 0, 0.25),
+  34.8px 41.8px 46.9px -50px rgba(0, 0, 0, 0.302),
+  74px 89px 120px -50px rgba(0, 0, 0, 0.42)
+;
 }
-.login-form{
-    border: 2px solid black;
+.login-input 
+{
+    padding:1rem;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#login-bt
+{
+    padding:1rem;
+    width: 45%;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+#login-bt:hover{
+    border: 3px solid rgb(243, 174, 243);
 }
