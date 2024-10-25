@@ -1,7 +1,14 @@
 body{
-    background-color:darkkhaki;
+    background-color:black;
 }
 
 .div2{
+    width: 60vw;
+    height: 40vh;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    height: 40px;
 }
