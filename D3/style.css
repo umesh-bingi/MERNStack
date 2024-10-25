@@ -30,3 +30,13 @@ img{
 #foget{
     text-decoration: none;
 }
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+.lowlow{
+    display: flex;
+}
+.lowlow>p{
+    margin-right: 5px;
+}
