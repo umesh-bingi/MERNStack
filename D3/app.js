@@ -11,7 +11,7 @@ function login(event){
         API();
     }
     else
-        alert("not done");
+        alert("login not done!");
 }
 async function API()
 {
