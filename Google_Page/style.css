@@ -2,41 +2,33 @@ body{
     background-color:#f0f4f9;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.div2{
-    width: 60vw;
-    height: 40vh;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 40px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-}
 img{
     height: 40px;
+    width: 40px;
 }
-.div1{
-    width: 80vw;
-    height: 80vh;
-    position: relative;
-    left: 20em;
-    top: 10em;
+.form-outline-up{
+    background-color: white;
+    display: flex;
+    height: 50%;
+    width: 70%;
+}
+.form-outline-down{
+    display: flex;
+}
+.helper{
+    display: flex;
+}
+.helper>p{
+    margin-right: 4px;
+}
+.outline{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #heading{
+    font-family:sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
-}
-#foget{
-    text-decoration: none;
-}
-.down{
-    display: flex;
-    justify-content: space-around;
-}
-.lowlow{
-    display: flex;
-}
-.lowlow>p{
-    margin-right: 5px;
 }
