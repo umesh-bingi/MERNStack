@@ -6,3 +6,7 @@
     color:blueviolet;
     border: 2px solid blueviolet;
 }
+body{
+    margin:0px;
+    overflow-x: hidden;
+}

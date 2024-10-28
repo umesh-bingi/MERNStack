@@ -1,13 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-
-const Home = () => {
+// HomePage.js
+import HeroSection from '../assets/sections/HeroSection';
+import Features from '../assets/sections/Features';
+import Testimonials from '../assets/sections/Testimonials';
+const HomePage = () => {
   return (
-    <>
-        <div>Home</div>
-    </>
-    
-  )
-}
+    <div className="home-page">
+      <HeroSection />
+      
+      <Features />
+      <Testimonials />
+    </div>
+  );
+};
 
-export default Home
+export default HomePage;
