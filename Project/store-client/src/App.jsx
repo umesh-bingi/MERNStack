@@ -5,6 +5,7 @@ import Products from './pages/Products'
 import WebLayout from './layout/WebLayout'
 import AdminLayout from './layout/AdminLayout'
 import AdminDashboard from './pages/Admin/AdminDashboard'
+import AdminProducts from './pages/Admin/AdminProducts'
 // import {} from 'react'
 const App = () => {
     return (
@@ -18,6 +19,8 @@ const App = () => {
                     </Route>
                     <Route element={<AdminLayout />}>
                         <Route path='/admin/dashboard' element={<AdminDashboard/>} />
+                        <Route path='/admin/dashboard' element={<AdminProducts/>} />
+                        
                     </Route>
                 </Routes>
             </BrowserRouter>
