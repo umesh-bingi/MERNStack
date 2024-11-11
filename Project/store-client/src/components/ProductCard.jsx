@@ -1,6 +1,5 @@
 import { IndianRupee } from 'lucide-react'
 import React from 'react'
-
 const ProductCard = ({ img, price, name }) => {
     return (
         <>
@@ -25,5 +24,4 @@ const ProductCard = ({ img, price, name }) => {
         </>
     )
 }
-
 export default ProductCard
